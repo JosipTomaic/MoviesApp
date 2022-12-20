@@ -1,0 +1,12 @@
+F:\Projects\MoviesApp\MoviesApp.Common\bin\Debug\net6.0\MoviesApp.Common.deps.json
+F:\Projects\MoviesApp\MoviesApp.Common\bin\Debug\net6.0\MoviesApp.Common.dll
+F:\Projects\MoviesApp\MoviesApp.Common\bin\Debug\net6.0\ref\MoviesApp.Common.dll
+F:\Projects\MoviesApp\MoviesApp.Common\bin\Debug\net6.0\MoviesApp.Common.pdb
+F:\Projects\MoviesApp\MoviesApp.Common\obj\Debug\net6.0\MoviesApp.Common.csproj.AssemblyReference.cache
+F:\Projects\MoviesApp\MoviesApp.Common\obj\Debug\net6.0\MoviesApp.Common.GeneratedMSBuildEditorConfig.editorconfig
+F:\Projects\MoviesApp\MoviesApp.Common\obj\Debug\net6.0\MoviesApp.Common.AssemblyInfoInputs.cache
+F:\Projects\MoviesApp\MoviesApp.Common\obj\Debug\net6.0\MoviesApp.Common.AssemblyInfo.cs
+F:\Projects\MoviesApp\MoviesApp.Common\obj\Debug\net6.0\MoviesApp.Common.csproj.CoreCompileInputs.cache
+F:\Projects\MoviesApp\MoviesApp.Common\obj\Debug\net6.0\MoviesApp.Common.dll
+F:\Projects\MoviesApp\MoviesApp.Common\obj\Debug\net6.0\ref\MoviesApp.Common.dll
+F:\Projects\MoviesApp\MoviesApp.Common\obj\Debug\net6.0\MoviesApp.Common.pdb

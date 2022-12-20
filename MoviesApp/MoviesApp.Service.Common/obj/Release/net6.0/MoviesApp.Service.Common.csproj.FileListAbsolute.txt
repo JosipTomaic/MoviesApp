@@ -1,0 +1,15 @@
+F:\Projects\MoviesApp\MoviesApp.Service.Common\bin\Release\net6.0\MoviesApp.Service.Common.deps.json
+F:\Projects\MoviesApp\MoviesApp.Service.Common\bin\Release\net6.0\MoviesApp.Service.Common.dll
+F:\Projects\MoviesApp\MoviesApp.Service.Common\bin\Release\net6.0\ref\MoviesApp.Service.Common.dll
+F:\Projects\MoviesApp\MoviesApp.Service.Common\bin\Release\net6.0\MoviesApp.Service.Common.pdb
+F:\Projects\MoviesApp\MoviesApp.Service.Common\bin\Release\net6.0\MoviesApp.Model.Common.dll
+F:\Projects\MoviesApp\MoviesApp.Service.Common\bin\Release\net6.0\MoviesApp.Model.Common.pdb
+F:\Projects\MoviesApp\MoviesApp.Service.Common\obj\Release\net6.0\MoviesApp.Service.Common.csproj.AssemblyReference.cache
+F:\Projects\MoviesApp\MoviesApp.Service.Common\obj\Release\net6.0\MoviesApp.Service.Common.GeneratedMSBuildEditorConfig.editorconfig
+F:\Projects\MoviesApp\MoviesApp.Service.Common\obj\Release\net6.0\MoviesApp.Service.Common.AssemblyInfoInputs.cache
+F:\Projects\MoviesApp\MoviesApp.Service.Common\obj\Release\net6.0\MoviesApp.Service.Common.AssemblyInfo.cs
+F:\Projects\MoviesApp\MoviesApp.Service.Common\obj\Release\net6.0\MoviesApp.Service.Common.csproj.CoreCompileInputs.cache
+F:\Projects\MoviesApp\MoviesApp.Service.Common\obj\Release\net6.0\MoviesApp.Service.Common.csproj.CopyComplete
+F:\Projects\MoviesApp\MoviesApp.Service.Common\obj\Release\net6.0\MoviesApp.Service.Common.dll
+F:\Projects\MoviesApp\MoviesApp.Service.Common\obj\Release\net6.0\ref\MoviesApp.Service.Common.dll
+F:\Projects\MoviesApp\MoviesApp.Service.Common\obj\Release\net6.0\MoviesApp.Service.Common.pdb

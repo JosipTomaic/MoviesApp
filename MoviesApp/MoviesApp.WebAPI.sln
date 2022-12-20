@@ -1,0 +1,79 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.32014.148
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MoviesApp.Common", "F:\Projects\MoviesApp\MoviesApp.Common\MoviesApp.Common.csproj", "{54C4B28D-F704-4AF1-B19B-8C7805E8537C}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MoviesApp.DAL.Common", "F:\Projects\MoviesApp\MoviesApp.DAL.Common\MoviesApp.DAL.Common.csproj", "{586E96F9-9153-4F7C-8BC7-50096A295445}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MoviesApp.DAL", "F:\Projects\MoviesApp\MoviesApp.DAL\MoviesApp.DAL.csproj", "{806BF9D8-D491-4527-AB2D-E2C3471749EC}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MoviesApp.Model", "F:\Projects\MoviesApp\MoviesApp.Model\MoviesApp.Model.csproj", "{D391A069-A1E9-4E50-B4D9-9F8764D6F965}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MoviesApp.Model.Common", "F:\Projects\MoviesApp\MoviesApp.Model.Common\MoviesApp.Model.Common.csproj", "{D12C5661-4845-40FD-9E33-9BAB1DDEF1D7}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MoviesApp.Repository", "F:\Projects\MoviesApp\MoviesApp.Repository\MoviesApp.Repository.csproj", "{21EB264D-8B70-46A2-91AC-40676C1E05C9}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MoviesApp.Repository.Common", "F:\Projects\MoviesApp\MoviesApp.Repository.Common\MoviesApp.Repository.Common.csproj", "{EF84C697-0D97-49AF-B255-836F00ABB702}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MoviesApp.Service", "F:\Projects\MoviesApp\MoviesApp.Service\MoviesApp.Service.csproj", "{26DA6DB8-C5B1-4AB5-BE25-3AC1FD1C2BFB}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MoviesApp.Service.Common", "F:\Projects\MoviesApp\MoviesApp.Service.Common\MoviesApp.Service.Common.csproj", "{832D490B-5C2D-4285-B87D-914F3519F4C3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MoviesApp.WebAPIReact", "MoviesApp.WebAPIReact\MoviesApp.WebAPIReact.csproj", "{EA314611-4AE3-4822-9217-6F3ED505F60E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{54C4B28D-F704-4AF1-B19B-8C7805E8537C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{54C4B28D-F704-4AF1-B19B-8C7805E8537C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{54C4B28D-F704-4AF1-B19B-8C7805E8537C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{54C4B28D-F704-4AF1-B19B-8C7805E8537C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{586E96F9-9153-4F7C-8BC7-50096A295445}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{586E96F9-9153-4F7C-8BC7-50096A295445}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{586E96F9-9153-4F7C-8BC7-50096A295445}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{586E96F9-9153-4F7C-8BC7-50096A295445}.Release|Any CPU.Build.0 = Release|Any CPU
+		{806BF9D8-D491-4527-AB2D-E2C3471749EC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{806BF9D8-D491-4527-AB2D-E2C3471749EC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{806BF9D8-D491-4527-AB2D-E2C3471749EC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{806BF9D8-D491-4527-AB2D-E2C3471749EC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D391A069-A1E9-4E50-B4D9-9F8764D6F965}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D391A069-A1E9-4E50-B4D9-9F8764D6F965}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D391A069-A1E9-4E50-B4D9-9F8764D6F965}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D391A069-A1E9-4E50-B4D9-9F8764D6F965}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D12C5661-4845-40FD-9E33-9BAB1DDEF1D7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D12C5661-4845-40FD-9E33-9BAB1DDEF1D7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D12C5661-4845-40FD-9E33-9BAB1DDEF1D7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D12C5661-4845-40FD-9E33-9BAB1DDEF1D7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{21EB264D-8B70-46A2-91AC-40676C1E05C9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{21EB264D-8B70-46A2-91AC-40676C1E05C9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{21EB264D-8B70-46A2-91AC-40676C1E05C9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{21EB264D-8B70-46A2-91AC-40676C1E05C9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EF84C697-0D97-49AF-B255-836F00ABB702}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EF84C697-0D97-49AF-B255-836F00ABB702}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EF84C697-0D97-49AF-B255-836F00ABB702}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EF84C697-0D97-49AF-B255-836F00ABB702}.Release|Any CPU.Build.0 = Release|Any CPU
+		{26DA6DB8-C5B1-4AB5-BE25-3AC1FD1C2BFB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{26DA6DB8-C5B1-4AB5-BE25-3AC1FD1C2BFB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{26DA6DB8-C5B1-4AB5-BE25-3AC1FD1C2BFB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{26DA6DB8-C5B1-4AB5-BE25-3AC1FD1C2BFB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{832D490B-5C2D-4285-B87D-914F3519F4C3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{832D490B-5C2D-4285-B87D-914F3519F4C3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{832D490B-5C2D-4285-B87D-914F3519F4C3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{832D490B-5C2D-4285-B87D-914F3519F4C3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EA314611-4AE3-4822-9217-6F3ED505F60E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EA314611-4AE3-4822-9217-6F3ED505F60E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EA314611-4AE3-4822-9217-6F3ED505F60E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EA314611-4AE3-4822-9217-6F3ED505F60E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {94038841-B172-40AF-B23E-A1FF033A48AA}
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,61 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "806bf9d8-d491-4527-ab2d-e2c3471749ec": {
+      "ProjectGuid": "806bf9d8-d491-4527-ab2d-e2c3471749ec",
+      "DisplayName": "MoviesApp.DAL",
+      "ColorIndex": 0
+    },
+    "5fb48801-8b62-4d34-82d8-61f69a22f394": {
+      "ProjectGuid": "5fb48801-8b62-4d34-82d8-61f69a22f394",
+      "DisplayName": "MoviesApp.WebAPI",
+      "ColorIndex": 1
+    },
+    "21eb264d-8b70-46a2-91ac-40676c1e05c9": {
+      "ProjectGuid": "21eb264d-8b70-46a2-91ac-40676c1e05c9",
+      "DisplayName": "MoviesApp.Repository",
+      "ColorIndex": 2
+    },
+    "26da6db8-c5b1-4ab5-be25-3ac1fd1c2bfb": {
+      "ProjectGuid": "26da6db8-c5b1-4ab5-be25-3ac1fd1c2bfb",
+      "DisplayName": "MoviesApp.Service",
+      "ColorIndex": 3
+    },
+    "ef84c697-0d97-49af-b255-836f00abb702": {
+      "ProjectGuid": "ef84c697-0d97-49af-b255-836f00abb702",
+      "DisplayName": "MoviesApp.Repository.Common",
+      "ColorIndex": 4
+    },
+    "d391a069-a1e9-4e50-b4d9-9f8764d6f965": {
+      "ProjectGuid": "d391a069-a1e9-4e50-b4d9-9f8764d6f965",
+      "DisplayName": "MoviesApp.Model",
+      "ColorIndex": 5
+    },
+    "d12c5661-4845-40fd-9e33-9bab1ddef1d7": {
+      "ProjectGuid": "d12c5661-4845-40fd-9e33-9bab1ddef1d7",
+      "DisplayName": "MoviesApp.Model.Common",
+      "ColorIndex": 6
+    },
+    "832d490b-5c2d-4285-b87d-914f3519f4c3": {
+      "ProjectGuid": "832d490b-5c2d-4285-b87d-914f3519f4c3",
+      "DisplayName": "MoviesApp.Service.Common",
+      "ColorIndex": 7
+    },
+    "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3": {
+      "ProjectGuid": "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3",
+      "DisplayName": "Miscellaneous Files",
+      "ColorIndex": -1
+    },
+    "d97ae64f-a9ec-4e0a-8863-5e8024168dbb": {
+      "ProjectGuid": "d97ae64f-a9ec-4e0a-8863-5e8024168dbb",
+      "DisplayName": "MoviesApp.Client",
+      "ColorIndex": 8
+    },
+    "ea314611-4ae3-4822-9217-6f3ed505f60e": {
+      "ProjectGuid": "ea314611-4ae3-4822-9217-6f3ed505f60e",
+      "DisplayName": "MoviesApp.WebAPIReact",
+      "ColorIndex": 9
+    }
+  },
+  "NextColorIndex": 10
+}

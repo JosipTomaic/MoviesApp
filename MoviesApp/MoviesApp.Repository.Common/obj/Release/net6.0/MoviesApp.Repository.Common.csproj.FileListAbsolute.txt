@@ -1,0 +1,15 @@
+F:\Projects\MoviesApp\MoviesApp.Repository.Common\bin\Release\net6.0\MoviesApp.Repository.Common.deps.json
+F:\Projects\MoviesApp\MoviesApp.Repository.Common\bin\Release\net6.0\MoviesApp.Repository.Common.dll
+F:\Projects\MoviesApp\MoviesApp.Repository.Common\bin\Release\net6.0\ref\MoviesApp.Repository.Common.dll
+F:\Projects\MoviesApp\MoviesApp.Repository.Common\bin\Release\net6.0\MoviesApp.Repository.Common.pdb
+F:\Projects\MoviesApp\MoviesApp.Repository.Common\bin\Release\net6.0\MoviesApp.Model.Common.dll
+F:\Projects\MoviesApp\MoviesApp.Repository.Common\bin\Release\net6.0\MoviesApp.Model.Common.pdb
+F:\Projects\MoviesApp\MoviesApp.Repository.Common\obj\Release\net6.0\MoviesApp.Repository.Common.csproj.AssemblyReference.cache
+F:\Projects\MoviesApp\MoviesApp.Repository.Common\obj\Release\net6.0\MoviesApp.Repository.Common.GeneratedMSBuildEditorConfig.editorconfig
+F:\Projects\MoviesApp\MoviesApp.Repository.Common\obj\Release\net6.0\MoviesApp.Repository.Common.AssemblyInfoInputs.cache
+F:\Projects\MoviesApp\MoviesApp.Repository.Common\obj\Release\net6.0\MoviesApp.Repository.Common.AssemblyInfo.cs
+F:\Projects\MoviesApp\MoviesApp.Repository.Common\obj\Release\net6.0\MoviesApp.Repository.Common.csproj.CoreCompileInputs.cache
+F:\Projects\MoviesApp\MoviesApp.Repository.Common\obj\Release\net6.0\MoviesApp.Repository.Common.csproj.CopyComplete
+F:\Projects\MoviesApp\MoviesApp.Repository.Common\obj\Release\net6.0\MoviesApp.Repository.Common.dll
+F:\Projects\MoviesApp\MoviesApp.Repository.Common\obj\Release\net6.0\ref\MoviesApp.Repository.Common.dll
+F:\Projects\MoviesApp\MoviesApp.Repository.Common\obj\Release\net6.0\MoviesApp.Repository.Common.pdb
