@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "xk8cVPTcuPRC4r37x6nqqja11M/B5xk7P93FJ6SyUWpkKEOOHNhD94hqbh6U2F7YtTpCjKZS6+3nBuNw9Z2mVw==",
+  "dgSpecHash": "49D5YwvJl8nGo6XqLAC5+9+AC9HQyiTRIRDwAYPyhBYOvZaUJ3bUcqxpGK5+JflkFxxCqmg3ibyQzzH72x4rdg==",
   "success": true,
-  "projectFilePath": "F:\\Projects\\MoviesApp\\MoviesApp.DAL.Common\\MoviesApp.DAL.Common.csproj",
+  "projectFilePath": "F:\\Projects\\MoviesAppProject\\MoviesApp\\MoviesApp.DAL.Common\\MoviesApp.DAL.Common.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\tomai\\.nuget\\packages\\google.protobuf\\3.19.4\\google.protobuf.3.19.4.nupkg.sha512",
     "C:\\Users\\tomai\\.nuget\\packages\\k4os.compression.lz4\\1.2.6\\k4os.compression.lz4.1.2.6.nupkg.sha512",

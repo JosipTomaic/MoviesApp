@@ -58,15 +58,18 @@ namespace MoviesApp.Repository
             }
         }
 
-        public async Task<IEnumerable<IMovieDomain>> GetAll(string searchTerm)
+        public async Task<IMovieResult> GetAll(string searchTerm, int pageNumber)
         {
             List<Movie> movies = new List<Movie>();
+            IMovieResult movieResult = new MovieResult();
             if (String.IsNullOrWhiteSpace(searchTerm))
             {
                 movies = Context.Movies
                     .Include(movie => movie.MovieGenres).ThenInclude(genre => genre.Genre)
                     .Include(movie => movie.CrewMemberMovieCredits).ThenInclude(cmmc => cmmc.CrewMember)
-                    .Include(movie => movie.CrewMemberMovieCredits).ThenInclude(cmmc => cmmc.MovieCredit).ToList();
+                    .Include(movie => movie.CrewMemberMovieCredits).ThenInclude(cmmc => cmmc.MovieCredit).AsSplitQuery().OrderBy(item => item.TmbdId).Skip((pageNumber - 1) * 10).Take(10).ToList();
+
+                movieResult.TotalPages = (int)Math.Ceiling((double)Context.Movies.Count() / 10);
             }
             else
             {
@@ -74,7 +77,9 @@ namespace MoviesApp.Repository
                     .Include(movie => movie.MovieGenres).ThenInclude(genre => genre.Genre)
                     .Include(movie => movie.CrewMemberMovieCredits).ThenInclude(cmmc => cmmc.CrewMember)
                     .Include(movie => movie.CrewMemberMovieCredits).ThenInclude(cmmc => cmmc.MovieCredit)
-                    .Where(movie => movie.OriginalTitle.ToLower().Contains(searchTerm)).ToList();
+                    .Where(movie => movie.OriginalTitle.ToLower().Contains(searchTerm)).AsSplitQuery().OrderBy(item => item.TmbdId).Skip((pageNumber - 1) * 10).Take(10).ToList();
+
+                movieResult.TotalPages = (int)Math.Ceiling((double)Context.Movies.Where(movie => movie.OriginalTitle.ToLower().Contains(searchTerm)).Count() / 10);
             }
 
             List<IMovieDomain> movieDomains = new List<IMovieDomain>();
@@ -139,7 +144,9 @@ namespace MoviesApp.Repository
                 movieDomains.Add(movieDomain);
             }
 
-            return movieDomains;
+            movieResult.Movies = movieDomains;
+
+            return movieResult;
         }
 
         #endregion Methods

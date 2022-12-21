@@ -1,58 +1,60 @@
 import React, { useState, useEffect } from 'react';
-import { Button, Container, Table } from 'react-bootstrap';
+import { Container, Table } from 'react-bootstrap';
 import { moviesService } from '../services';
-import { MoviesList } from '.';
-import { Input } from 'reactstrap';
+import { MoviesList, Paging, Search } from '.';
 
 export default function Home() {
-  const [movies, setMovies] = useState([]);
-  const [loadingState, setLoadingState] = useState(false);
+  const [moviesData, setMoviesData] = useState({ movies: [], totalPages: 0 });
+  const [loadingState, setLoadingState] = useState(true);
   const [searchTerm, setSearchTerm] = useState('');
   const [inputValue, setInputValue] = useState('');
+  const [pageNumber, setPageNumber] = useState(1);
+
+  const handleKeyUp = e => {
+    if (e.key === 'Enter') {
+      setSearchTerm(e.target.value);
+      setPageNumber(1);
+    }
+  }
+
+  const handleClear = () => {
+    setInputValue('');
+    setSearchTerm('');
+    setPageNumber(1);
+  }
+
+  const onDispose = () => {
+    setMoviesData({ movies: [], totalPages: 0 });
+    setLoadingState(false);
+  }
 
   useEffect(() => {
     const fetchData = async () => {
-      const response = await moviesService.getMovies(searchTerm);
+      setLoadingState(true);
+      const response = await moviesService.getMovies(searchTerm, pageNumber);
 
       if (response != null) {
-        setMovies(response);
+        setMoviesData(response);
+        setLoadingState(false);
       }
     }
 
     fetchData();
 
-    return () => {
-      setMovies([]);
-      setLoadingState(false);
-    }
-  }, [searchTerm]);
+    return () => onDispose();
+  }, [searchTerm, pageNumber]);
 
   if (loadingState) {
     return <h1>Loading...</h1>
   }
 
+  if (moviesData.movies.length === 0) {
+    return <h1>There are no movies to show. Please come back again later.</h1>
+  }
+
+
   return <Container fluid>
-    <div className='input-group'>
-      <Input
-        className="my-2"
-        placeholder="Type a search term and press enter on keyboard"
-        aria-label="Searchterm"
-        aria-describedby="search-field"
-        value={inputValue}
-        onChange={e => setInputValue(e.target.value)}
-        onKeyUp={e => {
-          if (e.key === 'Enter') {
-            setSearchTerm(e.target.value);
-          }
-        }}
-      />
-      <button className="btn btn-primary position-relative" type="button" onClick={() => {
-        setInputValue('');
-        setSearchTerm('');
-      }}>
-        <i className="fa-sharp fa-solid fa-xmark"></i>
-      </button>
-    </div>
+    <Search inputValue={inputValue} setInputValue={setInputValue} handleKeyUp={handleKeyUp} handleClear={handleClear} />
     <Table striped bordered hover size='sm'>
       <thead>
         <tr>
@@ -66,7 +68,8 @@ export default function Home() {
         </tr>
       </thead>
       <tbody>
-        <MoviesList data={movies} />
+        <MoviesList data={moviesData.movies} />
+        <Paging pageNumber={pageNumber} setPageNumber={setPageNumber} totalPages={moviesData.totalPages} />
       </tbody>
     </Table>
   </Container>

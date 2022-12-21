@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "F:\\Projects\\MoviesApp\\MoviesApp.DAL.Common\\MoviesApp.DAL.Common.csproj": {}
+    "F:\\Projects\\MoviesAppProject\\MoviesApp\\MoviesApp.DAL.Common\\MoviesApp.DAL.Common.csproj": {}
   },
   "projects": {
-    "F:\\Projects\\MoviesApp\\MoviesApp.DAL.Common\\MoviesApp.DAL.Common.csproj": {
+    "F:\\Projects\\MoviesAppProject\\MoviesApp\\MoviesApp.DAL.Common\\MoviesApp.DAL.Common.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "F:\\Projects\\MoviesApp\\MoviesApp.DAL.Common\\MoviesApp.DAL.Common.csproj",
+        "projectUniqueName": "F:\\Projects\\MoviesAppProject\\MoviesApp\\MoviesApp.DAL.Common\\MoviesApp.DAL.Common.csproj",
         "projectName": "MoviesApp.DAL.Common",
-        "projectPath": "F:\\Projects\\MoviesApp\\MoviesApp.DAL.Common\\MoviesApp.DAL.Common.csproj",
+        "projectPath": "F:\\Projects\\MoviesAppProject\\MoviesApp\\MoviesApp.DAL.Common\\MoviesApp.DAL.Common.csproj",
         "packagesPath": "C:\\Users\\tomai\\.nuget\\packages\\",
-        "outputPath": "F:\\Projects\\MoviesApp\\MoviesApp.DAL.Common\\obj\\",
+        "outputPath": "F:\\Projects\\MoviesAppProject\\MoviesApp\\MoviesApp.DAL.Common\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

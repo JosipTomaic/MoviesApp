@@ -1,5 +1,5 @@
 import React from "react";
-import { OverlayTrigger, Tooltip } from "react-bootstrap";
+import { MovieItem } from ".";
 
 export default function MoviesList(props) {
     const {
@@ -7,29 +7,6 @@ export default function MoviesList(props) {
     } = props;
 
     return data.map(movie => {
-        return (
-            <tr key={movie.tmdbId}>
-                <td>{movie.tmdbId}</td>
-                <td>{movie.title}</td>
-                <td>{movie.releaseDate}</td>
-                <td>{movie.genres}</td>
-                <td>{movie.directors}</td>
-                <td>
-                    <OverlayTrigger
-                        placement="bottom"
-                        overlay={
-                            <Tooltip>
-                                {movie.actors}
-                            </Tooltip>
-                        }
-                    >
-                        <span className="text-nowrap bd-highlight text-truncate actors-cell-truncated">
-                            {movie.actors}
-                        </span>
-                    </OverlayTrigger>
-                </td>
-                <td>{movie.popularity}</td>
-            </tr>
-        )
+        return <MovieItem key={movie.tmdbId} movie={movie} />
     });
 }

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "F:\\Projects\\MoviesApp\\MoviesApp.Repository\\MoviesApp.Repository.csproj": {}
+    "F:\\Projects\\MoviesAppProject\\MoviesApp\\MoviesApp.Repository\\MoviesApp.Repository.csproj": {}
   },
   "projects": {
-    "F:\\Projects\\MoviesApp\\MoviesApp.Common\\MoviesApp.Common.csproj": {
+    "F:\\Projects\\MoviesAppProject\\MoviesApp\\MoviesApp.Common\\MoviesApp.Common.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "F:\\Projects\\MoviesApp\\MoviesApp.Common\\MoviesApp.Common.csproj",
+        "projectUniqueName": "F:\\Projects\\MoviesAppProject\\MoviesApp\\MoviesApp.Common\\MoviesApp.Common.csproj",
         "projectName": "MoviesApp.Common",
-        "projectPath": "F:\\Projects\\MoviesApp\\MoviesApp.Common\\MoviesApp.Common.csproj",
+        "projectPath": "F:\\Projects\\MoviesAppProject\\MoviesApp\\MoviesApp.Common\\MoviesApp.Common.csproj",
         "packagesPath": "C:\\Users\\tomai\\.nuget\\packages\\",
-        "outputPath": "F:\\Projects\\MoviesApp\\MoviesApp.Common\\obj\\",
+        "outputPath": "F:\\Projects\\MoviesAppProject\\MoviesApp\\MoviesApp.Common\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -75,14 +75,14 @@
         }
       }
     },
-    "F:\\Projects\\MoviesApp\\MoviesApp.DAL.Common\\MoviesApp.DAL.Common.csproj": {
+    "F:\\Projects\\MoviesAppProject\\MoviesApp\\MoviesApp.DAL.Common\\MoviesApp.DAL.Common.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "F:\\Projects\\MoviesApp\\MoviesApp.DAL.Common\\MoviesApp.DAL.Common.csproj",
+        "projectUniqueName": "F:\\Projects\\MoviesAppProject\\MoviesApp\\MoviesApp.DAL.Common\\MoviesApp.DAL.Common.csproj",
         "projectName": "MoviesApp.DAL.Common",
-        "projectPath": "F:\\Projects\\MoviesApp\\MoviesApp.DAL.Common\\MoviesApp.DAL.Common.csproj",
+        "projectPath": "F:\\Projects\\MoviesAppProject\\MoviesApp\\MoviesApp.DAL.Common\\MoviesApp.DAL.Common.csproj",
         "packagesPath": "C:\\Users\\tomai\\.nuget\\packages\\",
-        "outputPath": "F:\\Projects\\MoviesApp\\MoviesApp.DAL.Common\\obj\\",
+        "outputPath": "F:\\Projects\\MoviesAppProject\\MoviesApp\\MoviesApp.DAL.Common\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -142,14 +142,14 @@
         }
       }
     },
-    "F:\\Projects\\MoviesApp\\MoviesApp.DAL\\MoviesApp.DAL.csproj": {
+    "F:\\Projects\\MoviesAppProject\\MoviesApp\\MoviesApp.DAL\\MoviesApp.DAL.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "F:\\Projects\\MoviesApp\\MoviesApp.DAL\\MoviesApp.DAL.csproj",
+        "projectUniqueName": "F:\\Projects\\MoviesAppProject\\MoviesApp\\MoviesApp.DAL\\MoviesApp.DAL.csproj",
         "projectName": "MoviesApp.DAL",
-        "projectPath": "F:\\Projects\\MoviesApp\\MoviesApp.DAL\\MoviesApp.DAL.csproj",
+        "projectPath": "F:\\Projects\\MoviesAppProject\\MoviesApp\\MoviesApp.DAL\\MoviesApp.DAL.csproj",
         "packagesPath": "C:\\Users\\tomai\\.nuget\\packages\\",
-        "outputPath": "F:\\Projects\\MoviesApp\\MoviesApp.DAL\\obj\\",
+        "outputPath": "F:\\Projects\\MoviesAppProject\\MoviesApp\\MoviesApp.DAL\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -169,8 +169,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "F:\\Projects\\MoviesApp\\MoviesApp.DAL.Common\\MoviesApp.DAL.Common.csproj": {
-                "projectPath": "F:\\Projects\\MoviesApp\\MoviesApp.DAL.Common\\MoviesApp.DAL.Common.csproj"
+              "F:\\Projects\\MoviesAppProject\\MoviesApp\\MoviesApp.DAL.Common\\MoviesApp.DAL.Common.csproj": {
+                "projectPath": "F:\\Projects\\MoviesAppProject\\MoviesApp\\MoviesApp.DAL.Common\\MoviesApp.DAL.Common.csproj"
               }
             }
           }
@@ -223,14 +223,14 @@
         }
       }
     },
-    "F:\\Projects\\MoviesApp\\MoviesApp.Model.Common\\MoviesApp.Model.Common.csproj": {
+    "F:\\Projects\\MoviesAppProject\\MoviesApp\\MoviesApp.Model.Common\\MoviesApp.Model.Common.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "F:\\Projects\\MoviesApp\\MoviesApp.Model.Common\\MoviesApp.Model.Common.csproj",
+        "projectUniqueName": "F:\\Projects\\MoviesAppProject\\MoviesApp\\MoviesApp.Model.Common\\MoviesApp.Model.Common.csproj",
         "projectName": "MoviesApp.Model.Common",
-        "projectPath": "F:\\Projects\\MoviesApp\\MoviesApp.Model.Common\\MoviesApp.Model.Common.csproj",
+        "projectPath": "F:\\Projects\\MoviesAppProject\\MoviesApp\\MoviesApp.Model.Common\\MoviesApp.Model.Common.csproj",
         "packagesPath": "C:\\Users\\tomai\\.nuget\\packages\\",
-        "outputPath": "F:\\Projects\\MoviesApp\\MoviesApp.Model.Common\\obj\\",
+        "outputPath": "F:\\Projects\\MoviesAppProject\\MoviesApp\\MoviesApp.Model.Common\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -290,14 +290,14 @@
         }
       }
     },
-    "F:\\Projects\\MoviesApp\\MoviesApp.Model\\MoviesApp.Model.csproj": {
+    "F:\\Projects\\MoviesAppProject\\MoviesApp\\MoviesApp.Model\\MoviesApp.Model.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "F:\\Projects\\MoviesApp\\MoviesApp.Model\\MoviesApp.Model.csproj",
+        "projectUniqueName": "F:\\Projects\\MoviesAppProject\\MoviesApp\\MoviesApp.Model\\MoviesApp.Model.csproj",
         "projectName": "MoviesApp.Model",
-        "projectPath": "F:\\Projects\\MoviesApp\\MoviesApp.Model\\MoviesApp.Model.csproj",
+        "projectPath": "F:\\Projects\\MoviesAppProject\\MoviesApp\\MoviesApp.Model\\MoviesApp.Model.csproj",
         "packagesPath": "C:\\Users\\tomai\\.nuget\\packages\\",
-        "outputPath": "F:\\Projects\\MoviesApp\\MoviesApp.Model\\obj\\",
+        "outputPath": "F:\\Projects\\MoviesAppProject\\MoviesApp\\MoviesApp.Model\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -317,11 +317,11 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "F:\\Projects\\MoviesApp\\MoviesApp.Common\\MoviesApp.Common.csproj": {
-                "projectPath": "F:\\Projects\\MoviesApp\\MoviesApp.Common\\MoviesApp.Common.csproj"
+              "F:\\Projects\\MoviesAppProject\\MoviesApp\\MoviesApp.Common\\MoviesApp.Common.csproj": {
+                "projectPath": "F:\\Projects\\MoviesAppProject\\MoviesApp\\MoviesApp.Common\\MoviesApp.Common.csproj"
               },
-              "F:\\Projects\\MoviesApp\\MoviesApp.Model.Common\\MoviesApp.Model.Common.csproj": {
-                "projectPath": "F:\\Projects\\MoviesApp\\MoviesApp.Model.Common\\MoviesApp.Model.Common.csproj"
+              "F:\\Projects\\MoviesAppProject\\MoviesApp\\MoviesApp.Model.Common\\MoviesApp.Model.Common.csproj": {
+                "projectPath": "F:\\Projects\\MoviesAppProject\\MoviesApp\\MoviesApp.Model.Common\\MoviesApp.Model.Common.csproj"
               }
             }
           }
@@ -368,14 +368,14 @@
         }
       }
     },
-    "F:\\Projects\\MoviesApp\\MoviesApp.Repository.Common\\MoviesApp.Repository.Common.csproj": {
+    "F:\\Projects\\MoviesAppProject\\MoviesApp\\MoviesApp.Repository.Common\\MoviesApp.Repository.Common.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "F:\\Projects\\MoviesApp\\MoviesApp.Repository.Common\\MoviesApp.Repository.Common.csproj",
+        "projectUniqueName": "F:\\Projects\\MoviesAppProject\\MoviesApp\\MoviesApp.Repository.Common\\MoviesApp.Repository.Common.csproj",
         "projectName": "MoviesApp.Repository.Common",
-        "projectPath": "F:\\Projects\\MoviesApp\\MoviesApp.Repository.Common\\MoviesApp.Repository.Common.csproj",
+        "projectPath": "F:\\Projects\\MoviesAppProject\\MoviesApp\\MoviesApp.Repository.Common\\MoviesApp.Repository.Common.csproj",
         "packagesPath": "C:\\Users\\tomai\\.nuget\\packages\\",
-        "outputPath": "F:\\Projects\\MoviesApp\\MoviesApp.Repository.Common\\obj\\",
+        "outputPath": "F:\\Projects\\MoviesAppProject\\MoviesApp\\MoviesApp.Repository.Common\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -395,8 +395,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "F:\\Projects\\MoviesApp\\MoviesApp.Model.Common\\MoviesApp.Model.Common.csproj": {
-                "projectPath": "F:\\Projects\\MoviesApp\\MoviesApp.Model.Common\\MoviesApp.Model.Common.csproj"
+              "F:\\Projects\\MoviesAppProject\\MoviesApp\\MoviesApp.Model.Common\\MoviesApp.Model.Common.csproj": {
+                "projectPath": "F:\\Projects\\MoviesAppProject\\MoviesApp\\MoviesApp.Model.Common\\MoviesApp.Model.Common.csproj"
               }
             }
           }
@@ -439,14 +439,14 @@
         }
       }
     },
-    "F:\\Projects\\MoviesApp\\MoviesApp.Repository\\MoviesApp.Repository.csproj": {
+    "F:\\Projects\\MoviesAppProject\\MoviesApp\\MoviesApp.Repository\\MoviesApp.Repository.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "F:\\Projects\\MoviesApp\\MoviesApp.Repository\\MoviesApp.Repository.csproj",
+        "projectUniqueName": "F:\\Projects\\MoviesAppProject\\MoviesApp\\MoviesApp.Repository\\MoviesApp.Repository.csproj",
         "projectName": "MoviesApp.Repository",
-        "projectPath": "F:\\Projects\\MoviesApp\\MoviesApp.Repository\\MoviesApp.Repository.csproj",
+        "projectPath": "F:\\Projects\\MoviesAppProject\\MoviesApp\\MoviesApp.Repository\\MoviesApp.Repository.csproj",
         "packagesPath": "C:\\Users\\tomai\\.nuget\\packages\\",
-        "outputPath": "F:\\Projects\\MoviesApp\\MoviesApp.Repository\\obj\\",
+        "outputPath": "F:\\Projects\\MoviesAppProject\\MoviesApp\\MoviesApp.Repository\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -466,17 +466,17 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "F:\\Projects\\MoviesApp\\MoviesApp.DAL\\MoviesApp.DAL.csproj": {
-                "projectPath": "F:\\Projects\\MoviesApp\\MoviesApp.DAL\\MoviesApp.DAL.csproj"
+              "F:\\Projects\\MoviesAppProject\\MoviesApp\\MoviesApp.DAL\\MoviesApp.DAL.csproj": {
+                "projectPath": "F:\\Projects\\MoviesAppProject\\MoviesApp\\MoviesApp.DAL\\MoviesApp.DAL.csproj"
               },
-              "F:\\Projects\\MoviesApp\\MoviesApp.Model.Common\\MoviesApp.Model.Common.csproj": {
-                "projectPath": "F:\\Projects\\MoviesApp\\MoviesApp.Model.Common\\MoviesApp.Model.Common.csproj"
+              "F:\\Projects\\MoviesAppProject\\MoviesApp\\MoviesApp.Model.Common\\MoviesApp.Model.Common.csproj": {
+                "projectPath": "F:\\Projects\\MoviesAppProject\\MoviesApp\\MoviesApp.Model.Common\\MoviesApp.Model.Common.csproj"
               },
-              "F:\\Projects\\MoviesApp\\MoviesApp.Model\\MoviesApp.Model.csproj": {
-                "projectPath": "F:\\Projects\\MoviesApp\\MoviesApp.Model\\MoviesApp.Model.csproj"
+              "F:\\Projects\\MoviesAppProject\\MoviesApp\\MoviesApp.Model\\MoviesApp.Model.csproj": {
+                "projectPath": "F:\\Projects\\MoviesAppProject\\MoviesApp\\MoviesApp.Model\\MoviesApp.Model.csproj"
               },
-              "F:\\Projects\\MoviesApp\\MoviesApp.Repository.Common\\MoviesApp.Repository.Common.csproj": {
-                "projectPath": "F:\\Projects\\MoviesApp\\MoviesApp.Repository.Common\\MoviesApp.Repository.Common.csproj"
+              "F:\\Projects\\MoviesAppProject\\MoviesApp\\MoviesApp.Repository.Common\\MoviesApp.Repository.Common.csproj": {
+                "projectPath": "F:\\Projects\\MoviesAppProject\\MoviesApp\\MoviesApp.Repository.Common\\MoviesApp.Repository.Common.csproj"
               }
             }
           }

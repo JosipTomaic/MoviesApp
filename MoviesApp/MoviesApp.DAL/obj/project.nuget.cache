@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "cKEQU2M8uCGYVvqjTJSZj0A0sZ3DfQTFelvlz9g1e3mts2Mst0GRXLnDGgOcxmfm7bh+b3q8qkKrMW4oqB5yXQ==",
+  "dgSpecHash": "LJzFbU5NBhFl73gwJOY5Plm+IdzOWWmv4CSwnc4qritXRmIZrkv216glZhPBEMsXSBTuO4iVf28Syf1q8ZKCew==",
   "success": true,
-  "projectFilePath": "F:\\Projects\\MoviesApp\\MoviesApp.DAL\\MoviesApp.DAL.csproj",
+  "projectFilePath": "F:\\Projects\\MoviesAppProject\\MoviesApp\\MoviesApp.DAL\\MoviesApp.DAL.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\tomai\\.nuget\\packages\\azure.core\\1.24.0\\azure.core.1.24.0.nupkg.sha512",
     "C:\\Users\\tomai\\.nuget\\packages\\azure.identity\\1.6.0\\azure.identity.1.6.0.nupkg.sha512",

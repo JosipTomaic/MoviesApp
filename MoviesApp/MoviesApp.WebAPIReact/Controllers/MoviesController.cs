@@ -23,9 +23,9 @@ namespace MoviewApp.WebAPI.Controllers
         #endregion Properties
 
         [HttpGet("movies")]
-        public async Task<IActionResult> GetMoviesAsync([FromQuery] string? searchTerm = "")
+        public async Task<IActionResult> GetMoviesAsync([FromQuery] string? searchTerm = "", [FromQuery] int pageNumber = 1)
         {
-            IEnumerable<IMovieDomain> movies = await MovieService.GetAll(searchTerm);
+            IMovieResult movies = await MovieService.GetAll(searchTerm, pageNumber);
             return Ok(movies);
         }
     }

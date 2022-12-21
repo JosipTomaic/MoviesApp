@@ -93,18 +93,31 @@ namespace MoviesApp.Service
             try
             {
                 IEnumerable<IAPIMovie> APIMoviesList = new List<IAPIMovie>();
+                int pageNumber = 1;
+                int totalPages = 5; // THIS IS A PRESET OF TOTAL PAGES BECAUSE API RESPONSE CONTAINS 1000 AS VALUE FOR TOTAL PAGES
 
-                using (var httpRequest = new HttpRequestMessage(new HttpMethod("GET"), $"{TMDB_URL}/trending/movie/day?api_key={TMDB_APIKEY}&page=1"))
+                do
                 {
-                    HttpResponseMessage httpResponseMessage = await HttpClient.SendAsync(httpRequest);
-                    var jsonResponse = await httpResponseMessage.Content.ReadAsStringAsync();
-                    var response = JsonConvert.DeserializeObject<APIMovieResult>(jsonResponse);
-
-                    if (response != null)
+                    using (var httpRequest = new HttpRequestMessage(new HttpMethod("GET"), $"{TMDB_URL}/trending/movie/day?api_key={TMDB_APIKEY}&page={pageNumber}"))
                     {
-                        APIMoviesList = response.Results;
+                        HttpResponseMessage httpResponseMessage = await HttpClient.SendAsync(httpRequest);
+                        var jsonResponse = await httpResponseMessage.Content.ReadAsStringAsync();
+                        var response = JsonConvert.DeserializeObject<APIMovieResult>(jsonResponse);
+
+                        if (response != null)
+                        {
+                            APIMoviesList = APIMoviesList.Concat(response.Results);
+                        }
+
+                        ++pageNumber;
+                        // COMMENTED OUT BECAUSE WE ARE NOT USING TOTAL PAGES FROM API (TOO MUCH PAGES)
+                        //if (totalPages == 0)
+                        //{
+                        //    totalPages = response.TotalPages;
+                        //}
                     }
                 }
+                while (pageNumber != totalPages);
 
                 return APIMoviesList;
             }

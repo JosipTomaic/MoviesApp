@@ -18,9 +18,9 @@ namespace MoviesApp.Service
             MovieRepository = movieRepository;
         }
 
-        public async Task<IEnumerable<IMovieDomain>> GetAll(string searchTerm)
+        public async Task<IMovieResult> GetAll(string searchTerm, int pageNumber)
         {
-            return await MovieRepository.GetAll(searchTerm);
+            return await MovieRepository.GetAll(searchTerm, pageNumber);
         }
     }
 }

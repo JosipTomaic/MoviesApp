@@ -9,3 +9,15 @@ F:\Projects\MoviesApp\MoviesApp.DAL.Common\obj\Debug\net6.0\MoviesApp.DAL.Common
 F:\Projects\MoviesApp\MoviesApp.DAL.Common\obj\Debug\net6.0\MoviesApp.DAL.Common.dll
 F:\Projects\MoviesApp\MoviesApp.DAL.Common\obj\Debug\net6.0\ref\MoviesApp.DAL.Common.dll
 F:\Projects\MoviesApp\MoviesApp.DAL.Common\obj\Debug\net6.0\MoviesApp.DAL.Common.pdb
+F:\Projects\MoviesAppProject\MoviesApp\MoviesApp.DAL.Common\bin\Debug\net6.0\MoviesApp.DAL.Common.deps.json
+F:\Projects\MoviesAppProject\MoviesApp\MoviesApp.DAL.Common\bin\Debug\net6.0\MoviesApp.DAL.Common.dll
+F:\Projects\MoviesAppProject\MoviesApp\MoviesApp.DAL.Common\bin\Debug\net6.0\ref\MoviesApp.DAL.Common.dll
+F:\Projects\MoviesAppProject\MoviesApp\MoviesApp.DAL.Common\bin\Debug\net6.0\MoviesApp.DAL.Common.pdb
+F:\Projects\MoviesAppProject\MoviesApp\MoviesApp.DAL.Common\obj\Debug\net6.0\MoviesApp.DAL.Common.csproj.AssemblyReference.cache
+F:\Projects\MoviesAppProject\MoviesApp\MoviesApp.DAL.Common\obj\Debug\net6.0\MoviesApp.DAL.Common.GeneratedMSBuildEditorConfig.editorconfig
+F:\Projects\MoviesAppProject\MoviesApp\MoviesApp.DAL.Common\obj\Debug\net6.0\MoviesApp.DAL.Common.AssemblyInfoInputs.cache
+F:\Projects\MoviesAppProject\MoviesApp\MoviesApp.DAL.Common\obj\Debug\net6.0\MoviesApp.DAL.Common.AssemblyInfo.cs
+F:\Projects\MoviesAppProject\MoviesApp\MoviesApp.DAL.Common\obj\Debug\net6.0\MoviesApp.DAL.Common.csproj.CoreCompileInputs.cache
+F:\Projects\MoviesAppProject\MoviesApp\MoviesApp.DAL.Common\obj\Debug\net6.0\MoviesApp.DAL.Common.dll
+F:\Projects\MoviesAppProject\MoviesApp\MoviesApp.DAL.Common\obj\Debug\net6.0\ref\MoviesApp.DAL.Common.dll
+F:\Projects\MoviesAppProject\MoviesApp\MoviesApp.DAL.Common\obj\Debug\net6.0\MoviesApp.DAL.Common.pdb

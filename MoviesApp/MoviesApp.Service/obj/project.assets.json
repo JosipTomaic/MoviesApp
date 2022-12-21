@@ -3468,11 +3468,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "F:\\Projects\\MoviesApp\\MoviesApp.Service\\MoviesApp.Service.csproj",
+      "projectUniqueName": "F:\\Projects\\MoviesAppProject\\MoviesApp\\MoviesApp.Service\\MoviesApp.Service.csproj",
       "projectName": "MoviesApp.Service",
-      "projectPath": "F:\\Projects\\MoviesApp\\MoviesApp.Service\\MoviesApp.Service.csproj",
+      "projectPath": "F:\\Projects\\MoviesAppProject\\MoviesApp\\MoviesApp.Service\\MoviesApp.Service.csproj",
       "packagesPath": "C:\\Users\\tomai\\.nuget\\packages\\",
-      "outputPath": "F:\\Projects\\MoviesApp\\MoviesApp.Service\\obj\\",
+      "outputPath": "F:\\Projects\\MoviesAppProject\\MoviesApp\\MoviesApp.Service\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -3492,17 +3492,17 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "F:\\Projects\\MoviesApp\\MoviesApp.Model.Common\\MoviesApp.Model.Common.csproj": {
-              "projectPath": "F:\\Projects\\MoviesApp\\MoviesApp.Model.Common\\MoviesApp.Model.Common.csproj"
+            "F:\\Projects\\MoviesAppProject\\MoviesApp\\MoviesApp.Model.Common\\MoviesApp.Model.Common.csproj": {
+              "projectPath": "F:\\Projects\\MoviesAppProject\\MoviesApp\\MoviesApp.Model.Common\\MoviesApp.Model.Common.csproj"
             },
-            "F:\\Projects\\MoviesApp\\MoviesApp.Model\\MoviesApp.Model.csproj": {
-              "projectPath": "F:\\Projects\\MoviesApp\\MoviesApp.Model\\MoviesApp.Model.csproj"
+            "F:\\Projects\\MoviesAppProject\\MoviesApp\\MoviesApp.Model\\MoviesApp.Model.csproj": {
+              "projectPath": "F:\\Projects\\MoviesAppProject\\MoviesApp\\MoviesApp.Model\\MoviesApp.Model.csproj"
             },
-            "F:\\Projects\\MoviesApp\\MoviesApp.Repository\\MoviesApp.Repository.csproj": {
-              "projectPath": "F:\\Projects\\MoviesApp\\MoviesApp.Repository\\MoviesApp.Repository.csproj"
+            "F:\\Projects\\MoviesAppProject\\MoviesApp\\MoviesApp.Repository\\MoviesApp.Repository.csproj": {
+              "projectPath": "F:\\Projects\\MoviesAppProject\\MoviesApp\\MoviesApp.Repository\\MoviesApp.Repository.csproj"
             },
-            "F:\\Projects\\MoviesApp\\MoviesApp.Service.Common\\MoviesApp.Service.Common.csproj": {
-              "projectPath": "F:\\Projects\\MoviesApp\\MoviesApp.Service.Common\\MoviesApp.Service.Common.csproj"
+            "F:\\Projects\\MoviesAppProject\\MoviesApp\\MoviesApp.Service.Common\\MoviesApp.Service.Common.csproj": {
+              "projectPath": "F:\\Projects\\MoviesAppProject\\MoviesApp\\MoviesApp.Service.Common\\MoviesApp.Service.Common.csproj"
             }
           }
         }

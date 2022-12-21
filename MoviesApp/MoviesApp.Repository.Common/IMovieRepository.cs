@@ -11,6 +11,6 @@ namespace MoviesApp.Repository.Common
     {
         Task<bool> InsertManyAsync(IEnumerable<IMovieDomain> movies);
 
-        Task<IEnumerable<IMovieDomain>> GetAll(string searchTerm);
+        Task<IMovieResult> GetAll(string searchTerm, int pageNumber);
     }
 }

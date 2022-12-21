@@ -9,6 +9,6 @@ namespace MoviesApp.Service.Common
 {
     public interface IMovieService
     {
-        Task<IEnumerable<IMovieDomain>> GetAll(string searchTerm);
+        Task<IMovieResult> GetAll(string searchTerm, int pageNumber);
     }
 }
